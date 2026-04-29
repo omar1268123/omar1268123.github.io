@@ -1,0 +1,49 @@
+ body {
+  background: linear-gradient(to right, #141e30, #243b55);
+}
+
+ .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card1 {
+  background-color: #ff4d4d;
+  width: 250px;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 20px;
+}
+
+.card2 {
+  background-color: #4da6ff;
+  width: 250px;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 20px;
+}
+
+.card3 {
+  background-color: #2ecc71;
+  width: 250px;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 20px;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+}
+
+.card1:hover, .card2:hover, .card3:hover {
+  transform: scale(1.05);
+  transition: 0.3s;
+}
+footer{
+  color: antiquewhite;
+}
